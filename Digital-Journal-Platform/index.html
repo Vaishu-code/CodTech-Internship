@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Journal Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📖 Digital Journal</h1>
+
+<input
+type="text"
+id="title"
+placeholder="Journal Title">
+
+<input
+type="date"
+id="date">
+
+<select id="mood">
+
+<option>😊 Happy</option>
+
+<option>😐 Normal</option>
+
+<option>😢 Sad</option>
+
+<option>😎 Excited</option>
+
+</select>
+
+<textarea
+id="content"
+placeholder="Write today's journal..."
+rows="6">
+</textarea>
+
+<button onclick="addEntry()">
+
+Save Entry
+
+</button>
+
+<input
+type="text"
+id="search"
+placeholder="Search Journal..."
+onkeyup="displayEntries()">
+
+<ul id="journalList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

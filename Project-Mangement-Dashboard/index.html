@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Management Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>Dashboard</h2>
+
+<ul>
+
+<li>🏠 Home</li>
+
+<li>📁 Projects</li>
+
+<li>📊 Reports</li>
+
+<li>⚙ Settings</li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<h1>Project Management Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h2 id="totalProjects">0</h2>
+<p>Total Projects</p>
+</div>
+
+<div class="card">
+<h2 id="completedProjects">0</h2>
+<p>Completed</p>
+</div>
+
+<div class="card">
+<h2 id="pendingProjects">0</h2>
+<p>Pending</p>
+</div>
+
+</div>
+
+<input type="text" id="projectName" placeholder="Project Name">
+
+<select id="status">
+
+<option>Pending</option>
+
+<option>Completed</option>
+
+</select>
+
+<button onclick="addProject()">
+
+Add Project
+
+</button>
+
+<ul id="projectList"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
