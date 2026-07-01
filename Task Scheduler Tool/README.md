@@ -55,8 +55,6 @@ Task Scheduler Tool/
 
 ├── script.js
 
-├── screenshots/
-
 ├── output-images/
 
 
