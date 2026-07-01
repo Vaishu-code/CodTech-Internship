@@ -59,7 +59,6 @@ Task Scheduler Tool/
 
 ├── output-images/
 
-└── Documentation.pdf
 
 ---
 
